@@ -3,8 +3,11 @@ package lye
 import "encoding/xml"
 
 const (
+	// ContentType is the SOAP XML MIME type. Because acronyms!
 	ContentType = "application/soap+xml"
-	Namespace   = "http://www.w3.org/2003/05/soap-envelope"
+
+	// Namespace is the SOAP XML namespace.
+	Namespace = "http://www.w3.org/2003/05/soap-envelope"
 )
 
 // Request encapsualates a SOAP 1.2 request, used with encoding/xml
